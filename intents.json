@@ -6,25 +6,19 @@
         "Halo selamat sore",
         "Test hy selamat siang",
         "Halo Selamat pagi",
+        "Halo Selamat siang",
         "Hy kak saya ingin interview",
         "Halo saya ingin interview",
         "Halo kak",
-        "Hy kak"
+        "Hy kak",
+        "Halo"
       ],
       "responses": [
         "Halo, terimakasih sudah hadir di interview kali ini, Sebelumnya, kamu boleh perkenalan diri dulu ya?",
         "Halo, terimakasih sudah menyempatkan waktunya hadir di interview kali ini, Oke kamu boleh perkenalan diri terlebih dahulu?",
         "Selamat sore, terimakasih sudah hadir pada interview kali ini, oke silahkan porkenalkan diri terlebih dahulu?",
-        "Hy, Terimakasih sudah hadir di interview kali ini, baik silahkan kamu perkenalkan diri terlebih dahulu?"
-      ]
-    },
-    {
-      "tag": "thanksgiving",
-      "patterns": ["Terima kasih banyak", "Thanks", "Thank you"],
-      "responses": [
-        "Sama-sama, senang bisa membantu!",
-        "Tidak masalah, selalu siap membantu!",
-        "Terima kasih juga telah datang!"
+        "Hy, Terimakasih sudah hadir di interview kali ini, baik silahkan kamu perkenalkan diri terlebih dahulu?",
+        "Baik mari kita mulai dengan pertanyaan pertama. Ceritakan tentang diri kamu dan bagaimana kamu tertarik dalam pengembangan perangkat lunak."
       ]
     },
     {
@@ -32,37 +26,117 @@
       "patterns": [
         "Jadi, perkenalkan saya, Umur saya tahun, Domisili saya di, Dan background pedidikan saya adalah lulusan di , ilmu komputer, baru lulus tahun",
         "Perkenalkan nama saya, saya tinggal",
-        "Oke saya, saya mahasiswa teknik informatika, masih fresh graduet"
+        "Oke, saya mahasiswa teknik informatika, masih fresh graduet",
+        "Oke perkenalkan nama saya saya sebelumnya sudah lulus bootcamp fullstack javascript dan mendapat perolehan nilai bagus, dan saya sudah tertarik untuk coding dari saya sma"
       ],
       "responses": [
-        "Oke, I see. Berarti kamu dulu background-nya adalah tekink Informatika ya? Berarti ya?",
         "Oke baik, kalo begitu bisa jelaskan pengalaman bekerja kamu seperti apa sebelumnya?",
         "Baik, bisa jelaskan project-project seperti apa yang sudah pernah dibangun sebelumnya?",
-        "Terus saya lihat di profile kamu udah pengalaman bekerja sebagai tech web dan juga mobile developer. Itu seperti apa,  boleh diceritakan nggak?"
-      ]
-    },
-    {
-      "tag": "job_opportunity",
-      "patterns": [
-        "Saat ini kita mencari developer full-stack",
-        "Kita sedang membuka lowongan untuk developer"
-      ],
-      "responses": [
-        "Pekerjaan yang menarik! Saya bisa memberikan informasi lebih lanjut?",
-        "Tentu, saya tertarik! Bisa beri saya informasi lebih lanjut tentang pekerjaan tersebut?"
-      ]
-    },
-    {
-      "tag": "background",
-      "patterns": [
-        "Ia benar saya tekink Informatika, dan ambil peminatan sc",
-        "Ia benar saya tekink Informatika, dan ambil peminatan rpl",
-        "Jadi pas saya pertengahan kuliah, saya kan mulai dari semestr 5, semestr 5 itu tahun 2018. Nah setelah itu saya dapat ilmu PHB, Frag Block Coda Ignitor. Nah dari situ-situ saya gunakan ilmu tersebut itu untuk mungkin nyari-nyari, kalau di lain gitu di official account, saya nyari di salah satu official account itu, suka ada yang minta, ada yang bisa ngerjain."
-      ],
-      "responses": [
+        "Terus saya lihat di profile kamu udah pengalaman bekerja sebagai tech web dan juga mobile developer. Itu seperti apa,  boleh diceritakan nggak?",
+        "Apa yang membuat kamu tertarik untuk menjadi seorang programmer?",
+        "Oke, I see. Berarti kamu dulu background-nya adalah tekink Informatika ya? Berarti ya?",
         "Oke, baik bisa ceritakan pengalaman kamu saat pembuatan skripsi, project seperti apa yang dibuat?",
         "Ooo I see, oke bisa ceritakan pengalaman kamu saat pembuatan TA di teknik informatika, project seperti apa yang dibuat?",
-        "Oke, Terus kamu ngerjain project sendiri atau kelompok tim boleh cerita lebih detail lagi gak?"
+        "Oke, Terus kamu ngerjain project sendiri atau kelompok tim boleh cerita lebih detail lagi gak?",
+        "Okey itu kamu berapa kali ngerjain projekan kayak gitu, Total tuh berapa ya? Saya nggak begitu ingat",
+        "Oh, oke. Dari setiap project itu kamu ngerjain berapa lama, misalnya?"
+      ]
+    },
+    {
+      "tag": "project",
+      "patterns": [
+        "saya belum pernah bekerja, namun pernah bikin projectan untuk anak anak semester 7 gitu",
+        "saya belum pernah bekerja, namun pernah membuat projectan dari dosen semacam cms gitu menggunakan php",
+        "Sebelumnya, saya telah berpartisipasi dalam beberapa  project yang mencakup berbagai bidang pengembangan perangkat lunak. Salah satu proyek menarik yang pernah saya kerjakan adalah aplikasi manajemen tugas berbasis web. Saya bertanggung jawab atas pengembangan bagian frontend menggunakan React dan mengintegrasikannya dengan backend menggunakan Node.js dan Express. Aplikasi ini memungkinkan pengguna untuk membuat, mengelola, dan memantau proyek-proyek mereka secara efisien.",
+        "Pengalaman sebagai tech web dan mobile developer memungkinkan saya untuk memahami kebutuhan pengembangan perangkat lunak dari berbagai perspektif. Dalam proyek-proyek tersebut, saya belajar mengelola kompleksitas pengembangan frontend dan backend, serta memastikan konsistensi dan kualitas pada aplikasi berbasis web dan mobile",
+        "Jadi pas saya pertengahan kuliah, saya kan mulai dari semestr 5, semestr 5 itu tahun 2018. Nah setelah itu saya dapat ilmu PHB, Frag Block Coda Ignitor. Nah dari situ-situ saya gunakan ilmu tersebut itu untuk mungkin nyari-nyari, kalau di lain gitu di official account, saya nyari di salah satu official account itu, suka ada yang minta, ada yang bisa ngerjain.",
+        "Saya tertarik untuk menjadi seorang developer karena saya percaya bahwa memiliki pemahaman menyeluruh tentang teknologi dari sisi klien hingga sisi server memberikan keunggulan yang besar",
+        "Saya tertarik untuk menjadi seorang programmer karena saya percaya bahwa memiliki pemahaman menyeluruh tentang teknologi dari sisi klien hingga sisi server memberikan keunggulan yang besar",
+        "Ia benar saya tekink Informatika, dan ambil peminatan sc",
+        "Ia benar saya tekink Informatika, dan ambil peminatan rpl"
+      ],
+      "responses": [
+        "Pekerjaan yang menarik! boleh gak berikan informasi lebih lanjut terkait project nya?",
+        "Baik, boleh tau tech stack apa aja yang kamu kausai sekarang?",
+        "Oke, diperkulihan boleh tau nggak, teknologi apa saja yang kamu bisa?",
+        "Oke, sekarang saya ingin tahu teknologi dan bahasa pemprogramman apa saya yang kamu kuasai?",
+        "Ooo I see, Klau begitu tolong jelaskan tech stack apa saja yang kamu gunakan",
+        "Baik sekarang beritahu saya baha pemprograman saja yang kamu kausai",
+        "Oke baik, sekarang saya akan coba tanya pertanyaan basic apa coba jelasin perbedaan antara let, const, dan var dalam JavaScript?"
+      ]
+    },
+    {
+      "tag": "testing",
+      "patterns": [
+        "Saya memiliki pengetahuan dan keterampilan dalam menggunakan Node.js untuk pengembangan server, serta Express.js sebagai kerangka kerja web. Saya juga memiliki pengalaman dengan database SQL dan NoSQL seperti MySQL dan MongoDB.",
+        "Pemrograman yang saya kuasai seperti Python untuk keperluan scripting dan pengembangan backend. Pengalaman saya juga mencakup penggunaan Git untuk kontrol versi dan GitHub untuk kolaborasi tim",
+        "Di sisi frontend, saya memiliki keahlian dalam menggunakan HTML, CSS, dan JavaScript. Saya juga memiliki pengalaman luas dengan kerangka kerja React untuk membangun antarmuka pengguna yang dinamis dan responsif.",
+        "sebagai Full Stack JavaScript developer, saya dapat menyediakan solusi end-to-end dalam pengembangan perangkat lunak, mulai dari frontend hingga backend. Saya juga selalu tertarik untuk terus mempelajari dan menggali lebih dalam tentang teknologi baru yang relevan dengan industri ini",
+        "Let itu digunakan untuk variable yang ingin kita rubah valuenya, const tidak dapat di rubah, dan va untuk variable global tidak terikat dengan scop"
+      ],
+      "responses": [
+        "Oke baik kamu memeliki requrement yang sesuai dengan posisi dengan yang kami cari, boleh tau apakah kamu dapat bekerja sama dengan tim?",
+        "Tentu, persyaratan yang kamu miliki sangat cocok dengan kebutuhan posisi ini. Bisakah kamu berkolaborasi dengan tim secara efektif?",
+        "Bagus, kualifikasi yang kamu punya sesuai dengan yang kami butuhkan. kamu ada masalah nggak untuk bekerja dalam tim?",
+        "Menarik, kamu memiliki kualifikasi yang sesuai dengan kebutuhan kami. Apakah kamu memiliki kemampuan untuk bekerja dalam tim dengan baik?",
+        "Oke, kualifikasi yang kamu miliki cocok dengan posisi yang kami tawarkan. Bagaimana dengan kemampuan bekerja sama dalam tim?"
+      ]
+    },
+    {
+      "tag": "soft_skill",
+      "patterns": [
+        "Ya, saya memiliki pengalaman yang baik dalam bekerja dalam tim pada proyek-proyek sebelumnya. Saya percaya bahwa kolaborasi yang baik membawa hasil yang lebih baik, dan saya selalu siap berkontribusi dengan anggota tim untuk mencapai tujuan bersama",
+        "Saya memang memiliki kemampuan bekerja mandiri, tetapi saya juga sangat menghargai dan menyukai kerja tim. Saya yakin dapat beradaptasi dengan baik dalam lingkungan tim dan memberikan kontribusi positif untuk mencapai kesuksesan bersama.",
+        "Berdasarkan pengalaman kerja saya sebelumnya, saya telah bekerja dalam tim yang beragam. Saya memahami pentingnya komunikasi efektif, mendengarkan ide-ide rekan tim, dan bekerja sama untuk mencapai tujuan bersama. Saya yakin dapat memberikan nilai tambah di lingkungan kerja tim",
+        "Saya memiliki track record yang baik dalam proyek-proyek kolaboratif. Saya aktif berpartisipasi dalam diskusi, mendukung rekan tim, dan bersedia berbagi pengetahuan. Saya sangat terbuka untuk belajar dari orang lain dan berkontribusi pada keberhasilan tim"
+      ],
+      "responses": [
+        "Okey noted, hmmm kalo boleh tau apa kelemahan dan kekuatan kamu dari yang lain?",
+        "Baik, dicatat. Bagaimana menurutmu tentang kelebihan dan kelemahan yang kamu miliki dibandingkan dengan orang lain?",
+        "Oke, dicatat ya. Bagaimana menurutmu perbandingan kekuatan dan kelemahanmu dibandingkan teman kuliah yang lain?",
+        "Paham, jadi apa menurutmu keunggulan dan kelemahanmu dibandingkan dengan rekan-rekan sekerja lainnya?",
+        "Noted. Saya ingin tahu, menurutmu apa kekuatan dan kelemahanmu dibandingkan dengan orang lain yang mungkin memiliki latar belakang dan keterampilan serupa?",
+        "Baik, terus bagaimana kamu menangani situasi ketika kamu menghadapi kendala dalam pengembangan?",
+        "Oke baik, jika kamu mengalami hambatan selama proses pengembangan, bagaimana cara kamu mengatasi tantangan tersebut?",
+        "Baik, apakah kamu bisa memberikan contoh bagaimana kamu akan menangani kendala yang muncul pada tahap development?"
+      ]
+    },
+    {
+      "tag": "solving",
+      "patterns": [
+        "Salah satu kekuatan saya adalah kemampuan untuk cepat memahami dan mengatasi masalah. Saya percaya kemampuan ini membantu saya memberikan kontribusi maksimal dalam proyek-proyek yang kompleks.",
+        "Saya memiliki latar belakang yang kuat dalam backend, dan ini memberi saya keunggulan dalam memahami detail dan mengambil keputusan yang terinformasi.",
+        "Kemampuan komunikasi saya yang baik memungkinkan saya berkolaborasi dengan berbagai tim dan merangkul ide-ide dari berbagai latar belakang.",
+        "Dalam mengatasi kendala tersebut, langkah pertama saya adalah melakukan analisis mendalam untuk memahami akar permasalahan. Saya akan merinci bagian-bagian kritis dari integrasi dan memeriksa dokumentasi serta log untuk mencari tahu sumber masalahnya. Setelah itu, saya akan melakukan percobaan dan uji coba untuk mengidentifikasi solusi yang mungkin",
+        "ika saya tidak dapat menemukan solusi yang memadai, langkah selanjutnya adalah berkonsultasi dengan anggota tim atau sumber daya lain yang mungkin memiliki pengalaman atau wawasan yang dapat membantu. Kolaborasi tim seringkali membawa sudut pandang baru dan solusi yang efektif",
+        "Saya akan memberikan pembaruan secara berkala tentang status kendala dan mencari masukan dari rekan tim. Ini membantu memastikan bahwa semua orang berada dalam halaman yang sama dan kita dapat bersama-sama mencari solusi yang paling tepat"
+      ],
+      "responses": [
+        "Oke I got it, saya rasa sudah semua. Kita cukupkan sampai disini saya akan memberikan kabar bagaimana untuk proses berikutnya, silahkan boleh meniggalkan room, terima kasih",
+        "Baik, saya sudah memahaminya. Kalau begitu, mari kita akhiri sampai di sini. Saya akan memberikan update mengenai langkah selanjutnya. Terima kasih",
+        "Oke, sudah saya mengerti semuanya. Mari kita selesaikan di sini. Nanti saya akan memberikan informasi lebih lanjut mengenai proses selanjutnya. Thankyouu",
+        "Baiklah, saya paham. Kita cukupkan pembahasan di sini. Saya akan memberikan kabar lebih lanjut mengenai langkah berikutnya. Silakan tinggalkan ruangan kapan pun Anda siap.",
+        "Oke, saya telah memahami. Mari kita selesai di sini. Saya akan memberi tahu Anda nanti mengenai langkah selanjutnya. Terima kasih",
+        "Baiklah. Kita bisa mengakhiri percakapan di sini. Saya akan memberikan update mengenai proses berikutnya. Jika tidak ada lagi yang perlu dibahas, sudah boleh leave. Terima kasih"
+      ]
+    },
+    {
+      "tag": "thanksgiving",
+      "patterns": [
+        "Terima kasih banyak",
+        "Thanks",
+        "Thank you",
+        "Terima Kasih",
+        "Makasih",
+        "Makasih kak"
+      ],
+      "responses": [
+        "Sama-sama, senang bisa membantu!",
+        "Tidak masalah, selalu siap membantu!",
+        "Terima kasih juga telah datang!",
+        "Terima kasih juga telah hadir!",
+        "Sama-sama, senang bisa berbincang!",
+        "Sama-sama, sudah boleh leave yah"
       ]
     }
   ]
