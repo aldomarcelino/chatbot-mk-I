@@ -1,0 +1,69 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Halo selamat sore",
+        "Test hy selamat siang",
+        "Halo Selamat pagi",
+        "Hy kak saya ingin interview",
+        "Halo saya ingin interview",
+        "Halo kak",
+        "Hy kak"
+      ],
+      "responses": [
+        "Halo, terimakasih sudah hadir di interview kali ini, Sebelumnya, kamu boleh perkenalan diri dulu ya?",
+        "Halo, terimakasih sudah menyempatkan waktunya hadir di interview kali ini, Oke kamu boleh perkenalan diri terlebih dahulu?",
+        "Selamat sore, terimakasih sudah hadir pada interview kali ini, oke silahkan porkenalkan diri terlebih dahulu?",
+        "Hy, Terimakasih sudah hadir di interview kali ini, baik silahkan kamu perkenalkan diri terlebih dahulu?"
+      ]
+    },
+    {
+      "tag": "thanksgiving",
+      "patterns": ["Terima kasih banyak", "Thanks", "Thank you"],
+      "responses": [
+        "Sama-sama, senang bisa membantu!",
+        "Tidak masalah, selalu siap membantu!",
+        "Terima kasih juga telah datang!"
+      ]
+    },
+    {
+      "tag": "intro",
+      "patterns": [
+        "Jadi, perkenalkan saya, Umur saya tahun, Domisili saya di, Dan background pedidikan saya adalah lulusan di , ilmu komputer, baru lulus tahun",
+        "Perkenalkan nama saya, saya tinggal",
+        "Oke saya, saya mahasiswa teknik informatika, masih fresh graduet"
+      ],
+      "responses": [
+        "Oke, I see. Berarti kamu dulu background-nya adalah tekink Informatika ya? Berarti ya?",
+        "Oke baik, kalo begitu bisa jelaskan pengalaman bekerja kamu seperti apa sebelumnya?",
+        "Baik, bisa jelaskan project-project seperti apa yang sudah pernah dibangun sebelumnya?",
+        "Terus saya lihat di profile kamu udah pengalaman bekerja sebagai tech web dan juga mobile developer. Itu seperti apa,  boleh diceritakan nggak?"
+      ]
+    },
+    {
+      "tag": "job_opportunity",
+      "patterns": [
+        "Saat ini kita mencari developer full-stack",
+        "Kita sedang membuka lowongan untuk developer"
+      ],
+      "responses": [
+        "Pekerjaan yang menarik! Saya bisa memberikan informasi lebih lanjut?",
+        "Tentu, saya tertarik! Bisa beri saya informasi lebih lanjut tentang pekerjaan tersebut?"
+      ]
+    },
+    {
+      "tag": "background",
+      "patterns": [
+        "Ia benar saya tekink Informatika, dan ambil peminatan sc",
+        "Ia benar saya tekink Informatika, dan ambil peminatan rpl",
+        "Jadi pas saya pertengahan kuliah, saya kan mulai dari semestr 5, semestr 5 itu tahun 2018. Nah setelah itu saya dapat ilmu PHB, Frag Block Coda Ignitor. Nah dari situ-situ saya gunakan ilmu tersebut itu untuk mungkin nyari-nyari, kalau di lain gitu di official account, saya nyari di salah satu official account itu, suka ada yang minta, ada yang bisa ngerjain."
+      ],
+      "responses": [
+        "Oke, baik bisa ceritakan pengalaman kamu saat pembuatan skripsi, project seperti apa yang dibuat?",
+        "Ooo I see, oke bisa ceritakan pengalaman kamu saat pembuatan TA di teknik informatika, project seperti apa yang dibuat?",
+        "Oke, Terus kamu ngerjain project sendiri atau kelompok tim boleh cerita lebih detail lagi gak?"
+      ]
+    }
+  ]
+}
