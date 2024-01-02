@@ -7,6 +7,7 @@
         "Test hy selamat siang",
         "Halo Selamat pagi",
         "Halo Selamat siang",
+        "Halo selamat siang saya ingin interview",
         "Hy kak saya ingin interview",
         "Halo saya ingin interview",
         "Halo kak",
@@ -25,6 +26,7 @@
       "tag": "intro",
       "patterns": [
         "Halo, saya aldo marcelino umur saya 22 tahun, berdomisili di Semarang, bakcgroung pendidikan teknik informatika UDINUS, dan baru lulus tahun ini",
+        "Perkenalkan saya Aldo Marcelino, Umur saya 22 tahun, Domisili saya di Semarang dan background pedidikan saya adalah Teknik Informatika dari Udinus, lulusan tahun 2024, dan saya tertarik dalam developing sofware/aplikasi karena dapat meningkatkan kinerja dan akurasi dalam penginputan data",
         "Jadi, perkenalkan saya, Umur saya tahun, Domisili saya di, Dan background pedidikan saya adalah lulusan di , ilmu komputer, baru lulus tahun",
         "Jadi, perkenalkan saya Aldo Marcelino, Umur saya 22 tahun, Domisili saya di Semarang dan background pedidikan saya adalah Teknik Informatika dari Udinus, lulusan tahun 2024",
         "Perkenalkan nama saya, saya tinggal",
@@ -60,7 +62,8 @@
         "Saya tertarik untuk menjadi seorang developer karena saya percaya bahwa memiliki pemahaman menyeluruh tentang teknologi dari sisi klien hingga sisi server memberikan keunggulan yang besar",
         "Saya tertarik untuk menjadi seorang programmer karena saya percaya bahwa memiliki pemahaman menyeluruh tentang teknologi dari sisi klien hingga sisi server memberikan keunggulan yang besar",
         "Ia benar saya tekink Informatika, dan ambil peminatan sc",
-        "Ia benar saya tekink Informatika, dan ambil peminatan rpl"
+        "Ia benar saya tekink Informatika, dan ambil peminatan rpl",
+        "saya mengerjakan satu poyek bisa satu sampai dengan dua bulan"
       ],
       "responses": [
         "Pekerjaan yang menarik! boleh gak berikan informasi lebih lanjut terkait project nya?",
